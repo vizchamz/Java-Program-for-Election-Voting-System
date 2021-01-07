@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="570.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DeleteCandidatesController">
+   <children>
+      <TableView fx:id="tableView" editable="true" layoutY="35.0" prefHeight="434.0" prefWidth="694.0">
+         <columns>
+            <TableColumn fx:id="col_id" prefWidth="37.0" text="ID" />
+            <TableColumn fx:id="col_name" prefWidth="100.0" text="Name" />
+            <TableColumn fx:id="col_party" prefWidth="77.0" text="Party" />
+            <TableColumn fx:id="col_nationality" prefWidth="72.0" text="Nationality" />
+            <TableColumn fx:id="col_nic" prefWidth="67.0" text="NIC_No" />
+            <TableColumn fx:id="col_address" prefWidth="139.0" text="Address" />
+            <TableColumn fx:id="col_contact" prefWidth="76.0" text="Contact_No" />
+            <TableColumn fx:id="col_dob" prefWidth="69.0" text="DOB" />
+            <TableColumn fx:id="col_gender" minWidth="0.0" prefWidth="56.0" text="Gender" />
+         </columns>
+      </TableView>
+      <Button fx:id="deleteButton" contentDisplay="CENTER" layoutX="142.0" layoutY="500.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: none; -fx-border-color: white;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="405.0" layoutY="500.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: none; -fx-border-color: white;" text="Apply" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

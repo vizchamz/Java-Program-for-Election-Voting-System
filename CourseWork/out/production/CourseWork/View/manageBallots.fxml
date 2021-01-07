@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="624.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ManageBallotsController">
+   <left>
+      <AnchorPane fx:id="adminOptionsBackground" minHeight="0.0" minWidth="0.0" prefHeight="558.0" prefWidth="1008.0" stylesheets="@../img/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="7.0" layoutY="548.0" text="US Presidential Election - 2020" textFill="WHITE" />
+            <Button fx:id="cancelButton" contentDisplay="CENTER" layoutX="83.0" layoutY="302.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="45.0" prefWidth="173.0" style="-fx-background-color: none; -fx-border-color: white;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="importBallotsButton" contentDisplay="CENTER" layoutX="58.0" layoutY="222.0" mnemonicParsing="false" onAction="#importBallotsButton" prefHeight="45.0" prefWidth="223.0" style="-fx-background-color: none; -fx-border-color: white;" text="Import Ballots" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+            <TableView fx:id="tableView2" layoutX="376.0" layoutY="79.0" prefHeight="412.0" prefWidth="561.0">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="104.0" text="ID" />
+                <TableColumn fx:id="col_name" prefWidth="338.0" text="Name" />
+                  <TableColumn fx:id="col_dob" prefWidth="118.0" text="DOB" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane fx:id="adminOptions" minHeight="0.0" minWidth="0.0" prefHeight="55.0" prefWidth="1008.0" stylesheets="@../img/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="633.0" layoutY="6.0" text="Presidential Election - 2020" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/292fd6a99e.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="18.0" text="admin" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

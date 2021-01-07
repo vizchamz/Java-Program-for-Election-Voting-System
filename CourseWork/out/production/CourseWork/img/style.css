@@ -1,0 +1,40 @@
+#pane1{
+    -fx-background-image: url("23-blurred-backgrounds-screen-shot-1.jpg");
+    -fx-background-size: 428 624;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0.5, 0, 0);
+    -fx-opacity: 100%;
+}
+
+#adminOptions{
+    -fx-background-image: url("icon-pattern-backgrounds.jpg");
+}
+
+#adminOptionsBackground{
+    -fx-background-image: url("23-blurred-backgrounds-screen-shot-1.jpg");
+    -fx-background-size: 1008 624;
+
+}
+
+#backgroundBorder{
+    -fx-background-image: url("Background.jpg");
+    -fx-background-size: 582 624;
+
+}
+
+#borderPane{
+    -fx-background-image: url("23-blurred-backgrounds-screen-shot-1.jpg");
+    -fx-background-size: 1008 624;
+
+}
+
+#textField, #textField1, #voterTextField, #voterTextField2{
+    -fx-text-inner-color: white;
+}
+
+#passwordField{
+    -fx-text-inner-color: white;
+}
+
+#cName, #cAddress, #cContactNo, #cIndexNo, #cNicNo, #cNationality, #cParty{
+    -fx-text-inner-color: white;
+}

@@ -1,0 +1,7 @@
+906001,John Snow,1960-02-05
+906002,Selena Williams,1970-01-01
+906003,Keenu Gomez,1965-02-28
+906004,Harry Styles,1990-06-21
+906005,Mark Anthony,1991-12-21
+906006,Visal Dharmasiri,1999-03-01
+906007,Kabir Singh,1985-08-08

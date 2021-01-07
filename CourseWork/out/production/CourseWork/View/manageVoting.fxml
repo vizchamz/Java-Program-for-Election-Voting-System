@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="624.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ManageVotingController">
+   <top>
+      <AnchorPane fx:id="adminOptions" minHeight="0.0" minWidth="0.0" prefHeight="55.0" prefWidth="1008.0" stylesheets="@../img/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="633.0" layoutY="6.0" text="Presidential Election - 2020" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../img/292fd6a99e.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="18.0" text="admin" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane fx:id="adminOptionsBackground" minHeight="0.0" minWidth="0.0" prefHeight="558.0" prefWidth="1008.0" stylesheets="@../img/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="7.0" layoutY="548.0" text="US Presidential Election - 2020" textFill="WHITE" />
+            <Button fx:id="logoutButton" contentDisplay="CENTER" layoutX="418.0" layoutY="342.0" mnemonicParsing="false" onAction="#logoutButton" prefHeight="45.0" prefWidth="173.0" style="-fx-background-color: none; -fx-border-color: white;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="startVotingButton" contentDisplay="CENTER" layoutX="369.0" layoutY="182.0" mnemonicParsing="false" onAction="#startVotingButton" prefHeight="45.0" prefWidth="271.0" style="-fx-background-color: none; -fx-border-color: white;" text="Start Voting" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="startVotingButton" contentDisplay="CENTER" layoutX="369.0" layoutY="262.0" mnemonicParsing="false" onAction="#endVotingButton" prefHeight="45.0" prefWidth="271.0" style="-fx-background-color: none; -fx-border-color: white;" text="End Voting" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" contentDisplay="CENTER" layoutX="810.0" layoutY="510.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="45.0" prefWidth="173.0" style="-fx-background-color: none; -fx-border-color: white;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

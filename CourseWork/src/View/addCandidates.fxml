@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="CandidateAdd" prefHeight="570.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddCandidatesController">
+   <children>
+      <Label layoutX="93.0" layoutY="100.0" text="Name" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="260.0" text="Index ID Number" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="140.0" text="Party" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="380.0" text="Contact Number" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="300.0" text="Date of Birth" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="180.0" text="Nationality" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="220.0" text="NIC Number" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="44.0" text="Candidate's Details" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="420.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="cMale" layoutX="252.0" layoutY="422.0" mnemonicParsing="false" text="Male" textFill="WHITE" />
+      <RadioButton fx:id="cFemale" layoutX="346.0" layoutY="422.0" mnemonicParsing="false" text="Female" textFill="WHITE" />
+      <TextField fx:id="cName" layoutX="252.0" layoutY="98.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <TextField fx:id="cParty" layoutX="252.0" layoutY="138.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <TextField fx:id="cNicNo" layoutX="252.0" layoutY="218.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <TextField fx:id="cIndexNo" layoutX="252.0" layoutY="258.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <DatePicker fx:id="cDOB" editable="false" layoutX="252.0" layoutY="298.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <TextField fx:id="cAddress" layoutX="252.0" layoutY="338.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <Label layoutX="93.0" layoutY="340.0" text="Address" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cNationality" layoutX="252.0" layoutY="178.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <TextField fx:id="cContactNo" layoutX="252.0" layoutY="378.0" prefHeight="25.0" prefWidth="349.0" style="-fx-background-color: none; -fx-border-color: white;" />
+      <Button layoutX="223.0" layoutY="490.0" mnemonicParsing="false" onAction="#submitAddCandidate" prefHeight="36.0" prefWidth="97.0" style="-fx-background-color: none; -fx-border-color: white;" text="Submit" textFill="WHITE" />
+      <Button layoutX="375.0" layoutY="490.0" mnemonicParsing="false" onAction="#resetAddCandidate" prefHeight="36.0" prefWidth="97.0" style="-fx-background-color: none; -fx-border-color: white;" text="Reset" textFill="WHITE" />
+   </children>
+</AnchorPane>

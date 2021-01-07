@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="570.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ViewCandidatesController">
+   <children>
+      <TableView fx:id="tableView" editable="true" layoutY="68.0" prefHeight="434.0" prefWidth="694.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="37.0" text="ID" />
+          <TableColumn fx:id="col_name" prefWidth="100.0" text="Name" />
+            <TableColumn fx:id="col_party" prefWidth="77.0" text="Party" />
+            <TableColumn fx:id="col_nationality" prefWidth="72.0" text="Nationality" />
+            <TableColumn fx:id="col_nic" prefWidth="67.0" text="NIC_No" />
+            <TableColumn fx:id="col_address" prefWidth="139.0" text="Address" />
+            <TableColumn fx:id="col_contact" prefWidth="76.0" text="Contact_No" />
+            <TableColumn fx:id="col_dob" minWidth="0.0" prefWidth="69.0" text="DOB" />
+            <TableColumn fx:id="col_gender" minWidth="0.0" prefWidth="56.0" text="Gender" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="624.0" prefWidth="1008.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <left>
+      <AnchorPane id="backgroundBorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="582.0" styleClass="root" stylesheets="@../img/style.css" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <AnchorPane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="428.0" stylesheets="@../img/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="button" layoutX="82.0" layoutY="487.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="27.0" prefWidth="106.0" style="-fx-background-color: none; -fx-border-color: white;" text="Login" textFill="WHITE" />
+            <PasswordField fx:id="passwordField" layoutX="82.0" layoutY="416.0" prefHeight="25.0" prefWidth="265.0" promptText="Password" style="-fx-background-color: none; -fx-border-color: white;">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="textField" layoutX="82.0" layoutY="360.0" prefHeight="25.0" prefWidth="265.0" promptText="Username" style="-fx-background-color: none; -fx-border-color: white;">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="7.0" layoutY="604.0" text="US Presidential Election - 2020" textFill="WHITE" />
+            <Button fx:id="resetLogin" layoutX="241.0" layoutY="487.0" mnemonicParsing="false" onAction="#resetLogin" prefHeight="27.0" prefWidth="106.0" style="-fx-background-color: none; -fx-border-color: white;" text="Reset" textFill="WHITE" />
+            <Label layoutX="183.0" layoutY="89.0" text="Vote Here" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="180.0" layoutY="312.0" text="Admin Login" textFill="WHITE" />
+            <Line endX="25.0" layoutX="146.0" layoutY="321.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="25.0" layoutX="355.0" layoutY="320.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="25.0" layoutX="356.0" layoutY="99.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="25.0" layoutX="147.0" layoutY="100.0" startX="-100.0" stroke="WHITE" />
+            <TextField fx:id="textField1" layoutX="82.0" layoutY="152.0" prefHeight="25.0" prefWidth="265.0" promptText="Voter ID" style="-fx-background-color: none; -fx-border-color: white;">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="voterLogin" layoutX="82.0" layoutY="224.0" mnemonicParsing="false" onAction="#voterLogin" prefHeight="27.0" prefWidth="106.0" style="-fx-background-color: none; -fx-border-color: white;" text="Submit" textFill="WHITE" />
+            <Button layoutX="241.0" layoutY="224.0" mnemonicParsing="false" onAction="#resetVoter" prefHeight="27.0" prefWidth="106.0" style="-fx-background-color: none; -fx-border-color: white;" text="Reset" textFill="WHITE" />
+         </children>
+         <effect>
+            <DropShadow radius="11.4225" spread="0.27" width="26.69" />
+         </effect>
+      </AnchorPane>
+   </center>
+</BorderPane>
